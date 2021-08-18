@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LiceuTaracliaCauseni </title>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="images/logo.png" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            IP Liceul Teoretic ”Ștefan cel Mare și Sfânt”, s.Taraclia, r-nul Causeni
+            <i class="fas fa-school logo"></i>
+        </a>
+        <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+    </header>
+    <div class="page-container">
+        <aside id="side-menu">
+            <a href="../index.html"> Prima pagină</a>
+            <a href="administratia.html">Administrația</a>
+            <a href="activitatimetodice.html">Activitatea metodică</a>
+            <a href="evenimente.html">Evenimente</a>
+            <a href="contacte.html">Contacte</a>
+        </aside>
+        <main>
+            <h2 class="title">Contacte</h2>
+            <div class="row">
+                <div class="col-50">
+                    <h3 >Contatează-ne dacă:</h3>
+                    <ul class="contact-list">
+                        <li> Dorești să adaugi un eveniment</li>
+                        <li> Cauți un loc de voluntariat</li>
+                        <li> Dorești să te înscrii la o secție sportivă</li>
+                        <li> Ai sugestii/propuneri</li>
+                    </ul>
+                </div>
+            <div class="col-50">
+                <h3> Date de contact:</h3>
+                <ul class="contact-list">
+                    <li> <b>Adresa:</b> str. Ștefan cel Mare, nr.4</li>
+                    <li> <b>Telefon:</b> 0 243 60 402</li>
+                    <li> <b>Ore de lucru:</b> 08:00-17:00</li>
+
+                </ul>
+            </div>
+    </div>
+
+    <div class="row">
+        <div class="col-50">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2742.814426636159!2d29.117886315470123!3d46.5711349791296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c9b741e7862f2b%3A0xc9f62429a4d41aca!2sLiceul%20Teoretic%20Stefan%20cel%20Mare%20%C8%99i%20Sfint!5e0!3m2!1sro!2s!4v1625223173452!5m2!1sro!2s"
+                 allowfullscreen="" loading="lazy"> </iframe>
+        </div>
+    <div class="col-50">
+        <div class="contact-form">
+            <form>
+                <h3 class="centered"> Lasă un mesaj</h3>
+                <input type="text" placeholder="Nume" required/>
+                <input type="email" placeholder="Email" required/>
+                <textarea rows="3" placeholder="Mesaj" required></textarea>
+                <input type="submit" value="Transmite"/>
+            </form>
+        </div>
+        </div>
+    </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
